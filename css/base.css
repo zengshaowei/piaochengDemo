@@ -1,0 +1,114 @@
+body ,nav,header,h1,ul,input,section,h2,p{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	/*background-color: gray;*/
+}
+
+a {
+	text-decoration: none;
+}
+
+.none {
+	display: none;
+}
+
+header {
+	min-width: 1263px;
+	width: 100%;
+	height: 70px;
+	background-color: #333;
+}
+
+#header {
+	min-width: 1263px;
+	max-width: 1920px;
+	height: 70px;
+	margin:0 auto;
+
+}
+
+
+header h1 {
+	width:240px;
+	color: #fff;
+	line-height: 70px;
+	height: 100%;
+	float: left;
+	margin-left: 50px;
+	background: url('../img/logo.png') no-repeat;
+	font-size: 0px;
+}
+
+#nav {
+	width: 100%;
+	height: 70px;
+}
+
+#nav ul {
+	color: #eee;
+	line-height: 70px;
+	list-style: none;
+	float: right;
+	text-align: center;
+	margin-right: 50px;
+}
+
+#nav li {
+	width: 150px;
+	float: left;
+	
+}
+
+.nav-link{
+	color: #eee;
+	display: block;
+	
+}
+
+.nav-link:hover ,.nav-link-select{
+	background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-top {
+	background-color:  #222;
+	display: flex;
+	justify-content: center;
+
+}
+
+.footer-top h2 {
+	color: #fff;
+}
+
+.footer-top hr {
+	border:1px dashed #000;
+}
+
+.footer-top div {
+	margin-left: 50px;
+	min-width: 250px;
+}
+
+.footer-top div ul {
+	color: #333;
+	list-style: none;
+}
+
+.footer-bottom {
+	text-align: center;
+}
