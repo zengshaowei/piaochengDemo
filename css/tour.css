@@ -1,5 +1,5 @@
 
-figure,figcaption{
+figure,figcaption,h3{
 	margin: 0;
 	padding: 0;
 }
@@ -9,6 +9,7 @@ body {
 }
 .headline {
 	width:100%;
+	min-width: 1063px;
 	height: 450px;
 	background: url('../img/headline.jpg') no-repeat center ;
 }
@@ -23,12 +24,18 @@ body {
 }
 
 .content {
-	margin: 40px 0px 20px 0px;
-
+	min-width: 1263px;
+	max-width: 1920px;
+	margin: 0 auto;
+	padding-top: 30px;
+	display: flex;
+	justify-content: center;
 }
 
 .info {
 	margin-left: 40px;
+	display: flex;
+	flex-direction: column;
 }
 
 .info-head {
@@ -41,6 +48,7 @@ body {
 
 .info figure {
 	display: flex;
+	margin-bottom: 20px;
 }
 
 .intro {
@@ -151,3 +159,85 @@ body {
 .info .last-time {
 	margin-left: 20px;
 }
+
+.content.content-left {
+	padding-left: 40px;
+}
+
+.content-left-block {
+	background-color: white;
+	width:370px;
+	border:1px solid gray;
+	margin-bottom: 20px;
+}
+
+.content-left-block h3 {
+	font-size:20px;
+	color: #777;
+	line-height: 50px;
+	background-color: #fafafa;
+	padding-left: 10px;
+	font-style: normal;
+	
+}
+
+.list-content {
+	padding:10px 20px;
+	/*background-color: green;*/
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.recommon >a {
+	/*display: block;*/
+	background-color: #eeeeee;
+	width:100px;
+	height: 40px;
+	margin:5px;
+	text-align: center;
+	line-height: 40px;
+	color: #777;
+}
+
+.recommon a:hover {
+	background: green;
+	color: white;
+}
+
+.list-content figure {
+	margin:5px;
+}
+
+.list-content figure figcaption{
+	text-align: center;
+}
+
+.list-content>div {
+	
+}
+
+.box1,.box2,.box3,.box4 {
+	width: 150px;	
+	height: 40px;
+	margin:5px;
+	text-align: center;
+	line-height: 40px;
+}
+.box1 {
+	background:#eeeeee url('../img/index.png') left center no-repeat;
+}
+
+.box2 {
+	background:#eeeeee url('../img/index2.png') left center no-repeat;
+}
+
+.box3 {
+	background:#eeeeee url('../img/index3.png') left center no-repeat;
+}
+
+.box4 {
+	background:#eeeeee url('../img/index4.png') left center no-repeat;
+}
+
+
+
